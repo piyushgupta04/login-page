@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="dist/ouput.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Rye&display=swap"
+        rel="stylesheet">
+
+    <!-- font-family: "Fira Code", monospace; -->
+    <!-- font-family: "Rye", serif; -->
+    <!-- font-family: "Delius", cursive; -->
+    <style>
+        .fira {
+            font-family: "Fira Code", monospace;
+
+        }
+
+        .delius {
+            font-family: "Delius", cursive;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="top"></section>
+    <!-- <section class="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+        <div class="container mx-auto p-8 bg-white rounded-lg shadow-md max-w-md">
+        <div class="text-2xl font-semibold text-center mb-6">
+            Welcome, Please login to continue!
+        </div>
+        <div class="form-container">
+            <form action=".login" class="space-y-4">
+                <div>
+                    <label for="username" class="block text-sm font-medium text-gray-700">Username:</label>
+                    <input type="text" id="username"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-smfocus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" />
+                </div>
+                <div>
+                    <label for="password" class="block text-sm font-medium text-gray-700">Password:</label>
+                    <input type="password" id="password"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-smfocus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" />
+                </div>
+                <div>
+                    <button type="submit"
+                        class="w-full py-2 px-4 bg-indigo-600 hover:bg-indigo-700 rounded-md text-whitefont-semibold">
+                        Login
+                    </button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section> -->
+    <section class="login-page min-h-screen bg-[#C4F4F0] flex  flex-col pt-35 justify-start items-center">
+        <div class="top-text delius max-w-xl text-[#09332F] font-semibold text-4xl  border-[#09332F] p-4 rounded-2xl mb-8">
+            "Navigate the Digital Cosmos."
+        </div>
+        <div class="form-container fira max-w-md border-2 rounded-2xl py-6 px-8 border-[#194B47]">
+            <form action="/login" class="flex flex-col space-y-4">
+                <div class="username-container block">
+                    <label class=" mb-1" for="username">Enter Username:</label>
+                    <input type="text" class="p-1 w-full border-2 rounded border-[#09332F]">
+                </div>
+                <div class="password-container block">
+                    <label class=" mb-1" for="password">Enter Password:</label>
+                    <input type="text" class="p-1 w-full border-2 rounded border-[#09332F]">
+                </div>
+                <div class="btn-container">
+                    <button class="text-[#09332F] cursor-pointer font-semibold rounded-2xl btn p-3 border-2 border-[#09332F] hover:bg-[#09332F] hover:text-[#C4F4F0] transition-all delay-100">Login!</button>
+                </div>
+            </form>
+        </div>
+        <div class="min-w-md block mt-1.5 pl-1.5">Need <a href="http://#">help</a> ?</div>
+    </section>
+</body>
+
+</html>
