@@ -1,2 +1,2 @@
 # login-page
- 
+## Known issue- I actually forgot to put first mobile priority, because of that, this site is quite irresponsive on mobile devices (I learned my lesson FR). Altho I can set it for mobile devices on one click but just let it be!
